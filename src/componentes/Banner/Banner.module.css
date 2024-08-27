@@ -1,0 +1,234 @@
+.banner {
+    padding: 3rem 7.5rem 6.25rem;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative; /* Adicionando position relative para garantir que o conteúdo seja posicionado corretamente */
+    
+}
+
+
+.titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+}
+
+.paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.imagens {
+    position: relative;
+    height: 406px;
+    display: flex;
+    justify-content: center; /* Centralizando o conteúdo horizontalmente */
+    align-items: center; /* Centralizando o conteúdo verticalmente */
+}
+
+.imagens > .minhaFoto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18vw;
+    border-radius: 50%;
+     /* Garantindo que a foto fique sobre o círculo colorido */
+}
+
+.imagens > .circuloColorido {
+    position: absolute;
+    right: 7vw;
+    bottom: 2.2vw;
+    width: 25vw;
+    border-radius: 50%;
+    /* Colocando o círculo atrás da foto */
+}
+
+@media (max-width: 1100px) {
+    .banner {
+        padding: 3.5rem 1.5rem;
+        
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+
+    .imagens {
+        height: 338px;
+    }
+
+    .imagens > .minhaFoto {
+        width: 25vw;
+    }
+
+    .imagens > .circuloColorido {
+        right: 10vw;
+        width: 35vw;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .imagens {
+        height: 307px;
+        position: relative;
+    }
+
+    .imagens > .minhaFoto,
+    .imagens > .circuloColorido {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens > .minhaFoto {.banner {
+        padding: 3rem 7.5rem 6.25rem;
+        background-color: var(--azul-escuro);
+        color: var(--branco);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        position: relative; /* Adicionando position relative para garantir que o conteúdo seja posicionado corretamente */
+    }
+    
+    .titulo {
+        font-family: var(--fonte-secundaria);
+        font-size: 4rem;
+        margin-top: 4.875rem;
+        margin-bottom: 2rem;
+    }
+    
+    .paragrafo {
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .imagens {
+        position: relative;
+        height: 406px;
+        display: flex;
+        justify-content: center; /* Centralizando o conteúdo horizontalmente */
+        align-items: center; /* Centralizando o conteúdo verticalmente */
+    }
+    
+    .imagens > .minhaFoto {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 18vw;
+        border-radius: 50%;
+        z-index: 2; /* Garantindo que a foto fique sobre o círculo colorido */
+    }
+    
+    .imagens > .circuloColorido {
+        position: absolute;
+        right: 7vw;
+        bottom: 2.2vw;
+        width: 25vw;
+        z-index: 1; /* Colocando o círculo atrás da foto */
+    }
+    
+    @media (max-width: 1100px) {
+        .banner {
+            padding: 3.5rem 1.5rem;
+        }
+    
+        .titulo {
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+    
+        .paragrafo {
+            margin-bottom: 1.5rem;
+        }
+    
+        .imagens {
+            height: 338px;
+        }
+    
+        .imagens > .minhaFoto {
+            width: 25vw;
+        }
+    
+        .imagens > .circuloColorido {
+            right: 10vw;
+            width: 35vw;
+        }
+    }
+    
+    @media (max-width: 744px) {
+        .banner {
+            padding: 2rem 1rem;
+            display: block;
+        }
+    
+        .titulo {
+            margin-bottom: 2rem;
+        }
+    
+        .paragrafo {
+            margin-bottom: 2rem;
+        }
+    
+        .imagens {
+            height: 307px;
+            position: relative;
+        }
+    
+        .imagens > .minhaFoto,
+        .imagens > .circuloColorido {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    
+        .imagens > .minhaFoto {
+            width: 170px;
+            transform: translate(5rem, 0px);
+            z-index: 2;
+        }
+    
+        .imagens > .circuloColorido {
+            width: 240px;
+            transform: translate(-1.5rem, 0px);
+            z-index: 1;
+        }
+    }
+    
+        width: 170px;
+        transform: translate(5rem, 0px);
+        z-index: 2;
+    }
+
+    .imagens > .circuloColorido {
+        width: 240px;
+        transform: translate(-1.5rem, 0px);
+        z-index: 1;
+    }
+}
