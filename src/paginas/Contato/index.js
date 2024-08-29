@@ -51,15 +51,15 @@ export default function Contato() {
             <p className="paragrafo"><span className="negrito">Endereço:</span> Rua Coronel Emilio Martins, nº 26 Ponte Nova – Minas Gerais – CEP: 35430-249.</p>
             <p className="paragrafo"><span className="negrito">Telefones:</span> (31) 984282129 (vivo) | (31) 38175261 (Fixo) – Recado.</p>
             <p className="paragrafo"><span className="negrito">Email:</span> marcotulioflana@hotmail.com</p>
-            <p className="paragrafo"><span className="negrito">Whatsapp:</span><a href= "https://wa.me/qr/GZ535TOJA32IL1" target="_blank" rel="noopener noreferrer">https://wa.me/qr/GZ535TOJA32IL1</a></p>
+            <p className="paragrafo"><span className="negrito">Whatsapp:</span><a href="https://wa.me/qr/GZ535TOJA32IL1" target="_blank" rel="noopener noreferrer">https://wa.me/qr/GZ535TOJA32IL1</a></p>
             <p className="paragrafo"><span className="negrito">Telegram:</span> @MarcoTulioLana</p>
             <p className="paragrafo"><span className="negrito">Instagram:</span> lanamarcotulio </p>
-            <p className="paragrafo"><span className="negrito">Linkedin:</span><a href="https://www.linkedin.com/in/marco-tulio-florentino-lana-6a9568240" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/marco-tulio-florentino-lana-6a9568240</a></p>
+            <p className="paragrafo"><span className="negrito">Linkedin:</span><a href="https://www.linkedin.com/in/marco-tulio-florentino-lana-6a9568240"target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/marco-tulio-florentino-lana-6a9568240</a></p>
 
-            <h2>Entre em Contato</h2>
+            <h2 className="cont">Entre em Contato</h2>
             <form onSubmit={handleSubmit} className="form-contato">
                 <div className="form-group">
-                    <label htmlFor="nome">Nome</label>
+                    <label htmlFor="nome">Nome:</label>
                     <input
                         type="text"
                         id="nome"
@@ -69,7 +69,7 @@ export default function Contato() {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="assunto">Assunto</label>
+                    <label htmlFor="assunto">Assunto:</label>
                     <input
                         type="text"
                         id="assunto"
@@ -79,7 +79,7 @@ export default function Contato() {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email">Email:</label>
                     <input
                         type="email"
                         id="email"
@@ -89,7 +89,7 @@ export default function Contato() {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="mensagem">Mensagem</label>
+                    <label htmlFor="mensagem">Mensagem:</label>
                     <textarea
                         id="mensagem"
                         value={mensagem}
