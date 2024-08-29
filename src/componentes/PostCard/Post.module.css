@@ -1,4 +1,5 @@
 .post {
+    position: relative; /* ou absolute/fixed dependendo do caso */
     z-index: 2;
     text-align: center;
     width: 282px;
