@@ -22,7 +22,7 @@ export default function SobreMim() {
             Oi, tudo bem?
             </p>
             <p className={styles.paragrafo}>
-            Sou formando em Engenharia de Computação e fico muito feliz em saber que você tem interesse em conhecer mais sobre mim. Este espaço foi criado para compartilhar minha trajetória e as experiências que venho adquirindo ao longo do curso. Sinta-se à vontade para explorar e descobrir mais sobre minha jornada!
+            Sou formado em Engenharia de Computação e fico muito feliz em saber que você tem interesse em conhecer mais sobre mim. Este espaço foi criado para compartilhar minha trajetória e as experiências que venho adquirindo ao longo do curso. Sinta-se à vontade para explorar e descobrir mais sobre minha jornada!
             </p>
             <p className={styles.paragrafo}>
             Comecei a trilhar meu caminho no ramo da computação ao iniciar um curso profissionalizante em manutenção de computadores e notebooks. Esse primeiro contato despertou minha curiosidade para saber mais, e decidi aprofundar meus conhecimentos estudando Engenharia de Computação na Universidade Univiçosa, na cidade próxima à minha Ponte Nova MG. Ingressei na primeira turma do curso em 2018, e desde então venho desenvolvendo minhas habilidades e explorando novas oportunidades na área.
